@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #000;
+  margin: 0;
+}
+    h1{
+text-align: center;
+padding-top: 20px;
+
+    }
+    main{
+        background-color: antiquewhite;
+     width: 30%;
+    }
+.form-aria{
+height: 720px;
+display: flexs;
+justify-content: center;
+align-items: center;
+
+}
+    .form-container{
+background-color: azure;
+padding-left: 30px;
+padding-top: 10px;
+height: 590px;
+width: 350px;
+margin: 0 auto;
+text-align: left;
+}
+
+input, select{
+    width: 300px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+button{
+background-color: blue;
+color: wheat;
+}
+    
