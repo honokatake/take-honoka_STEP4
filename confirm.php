@@ -17,7 +17,7 @@ if(!preg_match("/^[0-9\-]+$/", $phone)){
 }
 
 $email = $_POST['email'];
-if(!filter_var($email,FILTER_VALDATE_EMAIL)){
+if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
     echo "メールアドレスの形式が正しくありません。";
     exit;
 }
@@ -28,10 +28,7 @@ if(!preg_match("/^[ぁ-んァ-ン一-龥a-zA-Z0-9\s\-]+$",$address)){
     exit;
 }
 
-
 $agreement = $_POST['agreement'];
-
-
 $gender = $_POST['gender'];
 ?>
 
